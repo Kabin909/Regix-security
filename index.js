@@ -20,7 +20,7 @@ if (fs.existsSync('violations.json')) {
 }
 
 // BAD WORD LIST
-const badWords = ["fuck","shit","bitch","madarchod","bhosdike","chutiya","khanki","bal"];
+const badWords = ["baal, shalla, gandulal, khankir_chele, khankir chele, khankirchele, khankir_pola, khankir pola, khankirpola, gadha, bolod, pagol, murgi, faltu, chapri, oshobho, beadob, bal, shala, bokachoda, gandu, khanki, khankir chele, magir chele, harami, bejonmo, chudmarani, badjat, khisti, noob, loser, pagal, gadha, bolod, fatu, chapri, bokachoda, khanki, gandu, bal, shala, harami, magi, khankir chele, khistir, bejonmo, fuck, shit, bitch, asshole, bastard, mc, bc, chutiya, randi, madarchod, gali, kukur, tori, lado, idiot, stupid, dumb, 死, 笨蛋, 傻, 他妈的, 混蛋, くそ, ばか, 개새끼, 바보"];
 
 function normalize(text){
   return text.toLowerCase().replace(/[^a-z0-9]/g,'').replace(/(.)\1+/g,'$1');
